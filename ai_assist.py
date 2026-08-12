@@ -33,3 +33,4 @@ def ai_assist(input_text):
         execute_command(command)
     else:
         print("Failed to generate a command.")
+

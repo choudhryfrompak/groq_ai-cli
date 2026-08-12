@@ -31,3 +31,4 @@ def get_current_directory_contents():
         return [item for item in contents if not item.startswith('.')]  # Exclude hidden files
     except Exception as e:
         return f"Error reading directory contents: {str(e)}"
+
